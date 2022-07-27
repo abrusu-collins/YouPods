@@ -1,6 +1,6 @@
 # Yu
-<p>Contains 2 projects</p>
-<p> YuTunes and YuPods </p>
+<p>Contains 2 parts</p>
+<p> <b>YuTunes</b> and  <b>YuPods</b> </p>
 <h1>YuTunes</h1>
 A website where people can listen to YouTube Music without watching the video saving them Internet bundle.
 <b>Features</b>
@@ -24,7 +24,7 @@ A website where people can listen to YouTube Music without watching the video sa
 </ul>
 
 <h1> YuPods</h1>
-A website where people can listen to YouTube Podcasts without watching the video saving them Internet bundle
+A website where people can listen to YouTube Podcasts without watching the video saving them Internet bundle.
 <b>Features</b>
 
 <h1>TECHS TO USE</h1>
