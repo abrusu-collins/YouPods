@@ -1,7 +1,17 @@
+@font-face {
+  font-family: sf-pro-display_regular;
+  src: url("../Fonts/sf-pro-display_regular.woff2");
+}
+@font-face {
+  font-family: sf-pro-display_semibold;
+  src: url("../Fonts/sf-pro-display_semibold.woff2");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #0f1827;
   color: #fcfeff;
+  font-size: 21px;
+  font-family: sf-pro-display_regular;
 }
