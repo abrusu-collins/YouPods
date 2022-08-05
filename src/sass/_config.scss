@@ -1,0 +1,10 @@
+$background:#0f1827;
+$primary_color:#fcfeff;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $background;
+    color:$primary_color;
+}
