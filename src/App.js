@@ -1,8 +1,9 @@
 import "./styles/style.css";
+import Hero from "./components/Hero";
 function App() {
   return (
     <>
-    <h1>Yu Coming Soon...</h1>
+      <Hero />
     </>
   );
 }
