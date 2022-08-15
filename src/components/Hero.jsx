@@ -7,6 +7,7 @@ function Hero() {
       <h1 className="heroh1">
         YuTunes + YuPods
       </h1>
+      <p>Listen to your favourite songs and podcasts over here, enjoy </p>
      < SimpleSlider/ >
     
     </div>

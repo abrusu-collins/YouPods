@@ -18,7 +18,7 @@ class SimpleSlider extends Component {
       slidesToScroll: 1,
     };
     return (
-      <div style={{ width: "50%" }}>
+      <div style={{ width: "40%" }}>
         <Slider {...settings}>
           <div>
             <img src={img1} alt="img1" />
