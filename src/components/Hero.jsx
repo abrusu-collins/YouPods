@@ -2,7 +2,7 @@ function Hero() {
   return (
     <div className="hero">
       <h1 className="heroh1">
-        YuTunes <span>+</span> YuPods
+        YuTunes + YuPods
       </h1>
     </div>
   );
