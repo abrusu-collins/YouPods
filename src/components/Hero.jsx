@@ -1,6 +1,5 @@
-import img1 from "../img/img1.png"
-import img2 from "../img/img2.png"
-import img3 from "../img/img3.png"
+import SimpleSlider from "./SimpleSlider";
+
 
 function Hero() {
   return (
@@ -8,7 +7,7 @@ function Hero() {
       <h1 className="heroh1">
         YuTunes + YuPods
       </h1>
-
+     < SimpleSlider/ >
     
     </div>
   );
