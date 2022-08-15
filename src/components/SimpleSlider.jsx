@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import img1 from "../img/img1.png";
+import img2 from "../img/img2.png";
 import img3 from "../img/img3.png";
 
 class SimpleSlider extends Component {
@@ -14,11 +15,10 @@ class SimpleSlider extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
     };
     return (
-      <div style = {{width:"50%"}}>
-        
+      <div style={{ width: "50%" }}>
         <Slider {...settings}>
           <div>
             <img src={img1} alt="img1" />
@@ -27,10 +27,8 @@ class SimpleSlider extends Component {
             <img src={img3} alt="img3" />
           </div>
           <div>
-            <img src={img3} alt="img3" />
+            <img src={img2} alt="img2" />
           </div>
-          
-          
         </Slider>
       </div>
     );
