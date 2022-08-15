@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @font-face {
   font-family: sf-pro-display_regular;
   src: url("../Fonts/sf-pro-display_regular.woff2");
@@ -10,14 +11,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0f1827;
   color: #fcfeff;
   font-size: 21px;
-  font-family: sf-pro-display_regular;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #353353;
 }
 
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url("../img/upper-gradient.svg");
 }

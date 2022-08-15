@@ -1,6 +1,9 @@
-$background:#0f1827;
+$background: #353353;;
+$card_background:rgb(48, 47, 78);
+$button_color:0;
 $primary_color:#fcfeff;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @font-face {
     font-family: sf-pro-display_regular;
     src: url("../Fonts/sf-pro-display_regular.woff2");
@@ -15,8 +18,12 @@ $primary_color:#fcfeff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: $background;
+    // background-color: $background;
     color:$primary_color;
     font-size: 21px;
-    font-family:sf-pro-display_regular;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+         background-color: $background;
+
 }
