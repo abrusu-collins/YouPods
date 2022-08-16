@@ -31,3 +31,31 @@ body {
 .hero .heroh1 {
   font-size: 60px;
 }
+
+.search {
+  width: 50%;
+}
+.search form #songorpodcastname {
+  background-color: rgb(48, 47, 78);
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  padding: 20px;
+  margin-right: 12px;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fcfeff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fcfeff;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #fcfeff;
+}

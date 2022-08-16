@@ -1,0 +1,44 @@
+.search{
+    width: 50%;
+    & form{
+        & #songorpodcastname{
+            background-color: $card_background;
+            border: none;
+            border-radius: 5px;
+            width: 70%;
+            padding:20px;
+            margin-right: 12px;
+        }
+        & .searchbutton{}
+    }
+}
+
+//placeholder color
+
+::-webkit-input-placeholder { 
+    /* WebKit, Blink, Edge */
+    color:    $primary_color;
+}
+:-moz-placeholder {
+     /* Mozilla Firefox 4 to 18 */
+   color:    $primary_color;
+   opacity:  1;
+}
+::-moz-placeholder { 
+    /* Mozilla Firefox 19+ */
+   color:    $primary_color;
+   opacity:  1;
+}
+:-ms-input-placeholder {
+     /* Internet Explorer 10-11 */
+   color:    $primary_color;
+}
+::-ms-input-placeholder { 
+    /* Microsoft Edge */
+   color:    $primary_color;
+}
+
+::placeholder { 
+    /* Most modern browsers support this now. */
+   color:    $primary_color;
+}
