@@ -12,10 +12,10 @@
         & .searchbutton{
             text-decoration: none;
             background-color: $button_background;
-            padding: 15px 10px;
+            padding: 15px 15px;
             border-radius: 5px;
             &:hover{
-                background-color: #A71D31;
+                background-color: $button_hover_background;
             }
         }
     }
