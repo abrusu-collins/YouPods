@@ -1,4 +1,5 @@
 import SimpleSlider from "./SimpleSlider";
+import Search from "./Search";
 
 
 function Hero() {
@@ -8,6 +9,7 @@ function Hero() {
         YuTunes + YuPods
       </h1>
       <p>Listen to your favourite songs and podcasts over here, enjoy </p>
+      <Search/>
      < SimpleSlider/ >
     
     </div>
