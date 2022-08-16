@@ -64,3 +64,11 @@ body {
   /* Most modern browsers support this now. */
   color: #fcfeff;
 }
+
+.areasongtrends {
+  width: 50%;
+  margin: 150px 100px;
+}
+.areasongtrends h1 {
+  font-size: 30px;
+}
