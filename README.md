@@ -35,3 +35,6 @@ A website where people can listen to YouTube Podcasts without watching the video
 4. Node
 
 <h1>TO DO</h1>
+1. Trending songs wordwide
+2. Treding songs in your area
+3. New podcasts from some channels
