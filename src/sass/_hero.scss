@@ -6,8 +6,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     & .heroh1{
-      font-size: 60px;
+      font-size: 55px;
 
+    }
+    & p{
+      margin: 10px auto 25px auto;
     }
 }

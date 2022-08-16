@@ -27,9 +27,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .hero .heroh1 {
-  font-size: 60px;
+  font-size: 55px;
+}
+.hero p {
+  margin: 10px auto 25px auto;
 }
 
 .search {
@@ -40,8 +44,17 @@ body {
   border: none;
   border-radius: 5px;
   width: 70%;
-  padding: 20px;
+  padding: 15px;
   margin-right: 12px;
+}
+.search form .searchbutton {
+  text-decoration: none;
+  background-color: #C5283D;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+.search form .searchbutton:hover {
+  background-color: #A71D31;
 }
 
 ::-moz-placeholder {

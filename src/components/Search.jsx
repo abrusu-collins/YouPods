@@ -3,7 +3,7 @@ function Search() {
     <div className="search">
       <form action="">
         <input type="text" name="songorpodcastname" id="songorpodcastname" placeholder="Enter song or podcast name" />
-        <a href="ff ">Search</a>
+        <a href="ff " className="searchbutton">Search</a>
       </form>
     </div>
   );

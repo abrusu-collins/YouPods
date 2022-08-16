@@ -6,10 +6,18 @@
             border: none;
             border-radius: 5px;
             width: 70%;
-            padding:20px;
+            padding:15px;
             margin-right: 12px;
         }
-        & .searchbutton{}
+        & .searchbutton{
+            text-decoration: none;
+            background-color: $button_background;
+            padding: 15px 10px;
+            border-radius: 5px;
+            &:hover{
+                background-color: #A71D31;
+            }
+        }
     }
 }
 
