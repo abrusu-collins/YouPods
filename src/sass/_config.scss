@@ -1,30 +1,19 @@
-$background: #353353;;
-$card_background:rgb(48, 47, 78);
-$button_background:#C5283D;
-$primary_color:#fcfeff;
- $button_hover_background:#A71D31;
+$background: #353353;
+$card_background: rgb(48, 47, 78);
+$button_background: #c5283d;
+$primary_color: #fcfeff;
+$button_hover_background: #a71d31;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@font-face {
-    font-family: sf-pro-display_regular;
-    src: url("../Fonts/sf-pro-display_regular.woff2");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $primary_color;
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
 }
-
-@font-face {
-    font-family:sf-pro-display_semibold;
-    src: url("../Fonts/sf-pro-display_semibold.woff2");
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    // background-color: $background;
-    color:$primary_color;
-    font-size: 21px;
-    font-family: 'Poppins', sans-serif;
-}
-body{
-         background-color: $background;
-
+body {
+  background-color: $background;
 }
