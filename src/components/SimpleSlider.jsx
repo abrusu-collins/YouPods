@@ -21,11 +21,12 @@ class SimpleSlider extends Component {
       <div style={{ width: "40%" }}>
         <Slider {...settings}>
           <div>
-            <img src={img1} alt="img1" />
-          </div>
-          <div>
             <img src={img3} alt="img3" />
           </div>
+          <div>
+            <img src={img1} alt="img1" />
+          </div>
+
           <div>
             <img src={img2} alt="img2" />
           </div>
