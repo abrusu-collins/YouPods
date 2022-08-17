@@ -23,6 +23,7 @@ function Areasongtrends() {
           title: "Madza - Persistence",
           tags: ["dubstep"],
         },
+        
       ];
     
 
@@ -58,6 +59,7 @@ function Areasongtrends() {
             <Player trackList={tracks}
             includeSearch={false}
             includeTags={false}
+            autoPlayNextTrack={true}
             customColorScheme={colors}
             />
             
