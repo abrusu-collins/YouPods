@@ -74,3 +74,13 @@ body {
   font-size: 30px;
   margin-bottom: 20px;
 }
+
+.worldsongtrends {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+.worldsongtrends h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}

@@ -57,6 +57,7 @@ function Areasongtrends() {
             
             <Player trackList={tracks}
             includeSearch={false}
+            includeTags={false}
             customColorScheme={colors}
             />
             
